@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Productos</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul> 
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./productos.html">Productos</a>
+                </li>
+                <li><a href="./sucursales.html">Sucursales</a></li>
+                <li><a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank">Argentina Programa 2023</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Estamos en la Página de Productos</h1>
+
+    <h2>Sugerencias de Nombres de archivos y carpetas</h2>
+
+    <h2>NO</h2>
+    <h3>mi pagina.html</h3>
+    <h3>123mi pagina.html</h3>
+    <h3>mi-página.html</h3>
+
+    <h2>SI</h2>
+    <h3>mipagina.html</h3>
+    <h3>mi-pagina.html</h3>
+
+    <!-- Otras etiquetas -->
+
+    <hr> 
+    <hr>
+    <br>
+    <h2>Formulario de Contacto</h2>
+    <h3>Datos Personales</h3>
+
+    <!-- <form action="./backend/guardarInfo" method="get"> -->
+
+    <form id="formulario">
+    
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" minlength="4" maxlength="30" name="nombre" > 
+        </div>
+
+    <br>
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+
+    <br>
+    <label for="password">Password: </label>
+    <input type="password" name="password" id="password" minlength="6" maxlength="12" required> <button>Ver</button>
+
+    <br>
+    <label for="edad">Edad: </label>
+    <input type="number" name="edad">
+
+    <br>
+    <label for="date">Año de nacimiento: </label>
+    <input type="date" name="date" id="date">
+
+    <br>
+    <label for="direccion">Dirección</label>
+    <input type="text" name="direccion" placeholder="Mi dirección es....">
+
+    <br>
+    <label for="provincia">Provincia</label>
+    <input type="text" name="provincia">
+
+    <div>
+        <label for="pais">País de Nacimiento: </label>
+        <select name="pais" id="pais" required>
+            <optgroup>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Brasil">Argentina</option>
+                <option value="Ururguay">Argentina</option>
+            </optgroup>
+        </select>        
+    </div>
+
+    <div>
+        <label for="genero">Género: </label>
+        <div>
+            <input type="radio" name="genero" value="hombre"> Hombre
+            <input type="radio" name="genero" value="mujer"> Mujer
+            <input type="radio" name="genero" value="otro"> Otro
+        </div>
+    </div>
+    <div>
+        <input type="checkbox" name="aceptar"> Aceptar Conciciones
+    </div>
+
+
+
+    <p>
+        <input type="submit" value="Enviar datos">
+    </p>
+
+    <!--  <p>
+        <button>Enviar</button>
+    </p> -->
+
+
+    </form> 
+
+
+    <hr>
+    <hr>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.264152199428!2d-68.86011279173813!3d-32.891183576570505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e098f28513267%3A0x6e3ad4b6014284aa!2sChurrico%20%2F%20Ar%C3%ADstides!5e0!3m2!1ses!2sar!4v1677677920421!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kCrbCi6-0CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</body>
+</html>
