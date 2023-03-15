@@ -4,8 +4,78 @@
 /* 2. Propiedad */
 /* 3. Valor que le adigno a la propiedad */
 
+/* RESETEO DE ESTILOS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 /* sintixis de css */
-body{
-    background: rgb(200, 200, 236);
+body {/* selector global */
+    background: rgb(214, 214, 242);
+}
+
+h1 {/* selector global */
+    color: white;
+}
+
+p {/* selector global */
+    color: green;
+}
+
+
+
+/* selectores de clases */
+
+
+.tituloPlantas{
+    margin-bottom: 50px;
+}
+
+
+.primerParrafo {
+    color: hsl(183, 85%, 13%);
+    border-top: solid 5px black;
+    border-right: solid 10px red;
+    border-bottom: dashed 5px rgb(44, 7, 164);
+    border-left: solid 10px rgb(199, 7, 142);
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    padding-left: 75px;
+    font-family: 'Sono', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: normal;
+    /* text-align: center; */
+    /* text-align: right; */
+  /*   text-align: left; */
+    text-align: justify;
+}
+
+.tercerParrafo{
+    color: #ff0000;
+}
+
+/* selectores de ID */
+#unicoParrafo{
+    color: #648F59;
+}
+
+.centrarImagen{
+    text-align: center;
+    border: solid 1px black;
+    background: #648F59;
+}
+
+img{
+    height: 700px;
+    width: 1200px;
 }
 

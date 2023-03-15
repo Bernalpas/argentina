@@ -1,0 +1,50 @@
+
+
+body{
+    background: rgb(243, 200, 200);
+}
+
+
+h1{
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Flexbox */
+
+.padre {
+    display: flex;
+    padding: 50px;
+    border: solid 5px blue;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+   /*  flex-direction: column; */
+    flex-wrap: wrap;
+   /*  flex-direction: row-reverse; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: flex-end; */
+    /* justify-content: start;  */
+ /*    align-items: stretch; */
+}
+
+.hijo {
+    border: solid 2px black;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pasoRaton:hover{
+    background: rgb(3, 3, 52);
+    width: 500px;
+    height: 500px;
+    color: white;
+}

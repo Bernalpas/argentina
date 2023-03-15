@@ -4,7 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link a una página de estilos -->
     <link rel="stylesheet" href="./css/index.css">
+
+
+    <!-- Link a una tipografía de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap" rel="stylesheet">
+
+    <!-- Estilos en cada página -->
+    <style>
+        header{
+            background: #fff;
+            color: rgb(8, 8, 95);
+        }
+        li{
+            list-style-type: none;
+        }
+        h1{
+            color: green;
+        }
+    </style>
+
     <title>Clase 01 - HTML</title>
 </head>
 <body>
@@ -13,9 +36,9 @@
     <header>
         <nav>
             <ul>
-                <lli></lli>
-                <lli></lli>
-                <lli></lli>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </nav>
 
@@ -41,6 +64,9 @@
                 <a href="./index.html">Home</a>
             </li>
             <li>
+                <a href="./pages/trabajoGrupo.html">Trabajo Grupal</a>
+            </li>
+            <li>
                 <a href="./pages/productos.html">Productos</a>
             </li>
             <li><a href="./pages/sucursales.html">Sucursales</a></li>
@@ -52,8 +78,10 @@
     <main>
         <!-- Para comentar alt + shift + a -->
         
+        <h1>Hola</h1>
+        <h1>Pepe</h1>
         <!-- Estos son los tìtulos para las etiquetas  -->
-        <h1>         Clase 01 - HTML               </h1>
+        <h1 style="color: red">Clase 01 - HTML</h1>
         <h2>Hola</h2>
         <h3>Hola</h3>
         <h4>Hola</h4>
@@ -62,9 +90,15 @@
 
         <!-- etiqueta de una seccion  -->
         <img>
-            <h2>Las plantas aquí</h2>
+            <h2 class="tituloPlantas">Las plantas aquí</h2>
             <!-- etiquetas de párrafo -->
+            <p class="primerParrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur ipsum provident dolores. Nobis, quidem. Incidunt dolores cum ab laborum magnam illum quod placeat molestias ducimus? Dolor esse nemo eligendi?
+            </p>
             <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus, laborum nihil eligendi facere eum tempore placeat consequatur voluptates consequuntur provident error natus consectetur reiciendis porro minima ad deserunt atque.
+            </p>
+            <p class="tercerParrafo">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur ipsum provident dolores. Nobis, quidem. Incidunt dolores cum ab laborum magnam illum quod placeat molestias ducimus? Dolor esse nemo eligendi?
             </p>
             <p>
@@ -80,7 +114,14 @@
                 <li>Planta cinco</li>
             </ul>
 
-            <img src="https://www.ole.com.ar/images/2023/02/27/tbhzaYeWo_400x400__1.jpg"> <!-- archivos externos -->   
+            <div>Div: es una etiqueta comodín</div>
+
+            <div class="centrarImagen"> 
+                <img src="https://www.ole.com.ar/images/2023/02/27/tbhzaYeWo_400x400__1.jpg"> <!-- archivos externos --> 
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt facere dolorem reiciendis, laboriosam corrupti illo, aliquam eveniet natus maiores voluptates quis adipisci quae dolorum enim beatae mollitia error, possimus facilis.
+                </p>
+            </div>
 
             <video src=""></video>
         </section>
@@ -90,7 +131,7 @@
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo officiis nulla iste quod temporibus officia, labore ipsum pariatur consequuntur perspiciatis doloremque voluptatibus debitis rem iure tempora veritatis! Eum, delectus ipsam?
             </p>
-            <p>
+            <p id="unicoParrafo">
                 Lorem ipsum dolor sit amet consectetur <a href="./pages/productos.html#formulario">vamos al Formulario del sitio</a>  adipisicing elit. Asperiores expedita sit praesentium iste laborum quod sint modi sunt, ipsum repudiandae sed repellat dolorem. Totam porro accusamus quia adipisci quis nam.
             </p>
             <!-- listas ordenadas -->
